@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     
     @IBAction func weightSliderChanged(_ sender: UISlider) {
         let weight = sender.value
-        print(round(weight * 100)/100.0)    }
+        print(Int(weight))
+    }
 }
 
