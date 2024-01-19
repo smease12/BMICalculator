@@ -12,8 +12,8 @@ struct CalculatorBrain{
     
     var bmi = Float(0.0)
     
-    mutating func calculateBMI(height: Float, weight: Int){
-        bmi =  Float(weight) / (height * height)
+    mutating func calculateBMI(height: Float, weight: Float){
+        bmi =  weight / (height * height)
     }
     
     func getBMIValue() -> String{
