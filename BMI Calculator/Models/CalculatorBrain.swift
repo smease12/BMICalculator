@@ -36,10 +36,10 @@ struct CalculatorBrain{
     }
     
     func getAdvice() -> String{
-        return bmi?.advice ?? ""
+        return bmi?.advice ?? "No advice"
     }
     
     func getColor() -> UIColor{
-        return bmi?.color ?? .blue
+        return bmi?.color ?? #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
     }
 }

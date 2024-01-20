@@ -210,7 +210,6 @@
                     <connections>
                         <outlet property="adviceLabel" destination="9IV-CT-mxw" id="iAh-SX-PL3"/>
                         <outlet property="bmiLabel" destination="VU9-2W-Sd5" id="Nsw-Ac-ana"/>
-                        <outlet property="resultBackground" destination="r83-N3-Ash" id="tlh-9C-fjm"/>
                         <outlet property="view" destination="A2l-zF-O8p" id="DNH-7A-4tZ"/>
                     </connections>
                 </viewController>
